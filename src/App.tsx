@@ -1,7 +1,7 @@
 import './App.css'
 import { NavBar } from './components/NavBar'
 
-import { Home, About, Experience } from './sections';
+import { Home, About, Experience, Contact } from './sections';
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
     <Home />
     <About />
     <Experience />
+    <Contact />
     </>
   )
 }
