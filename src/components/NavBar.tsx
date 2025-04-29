@@ -20,11 +20,11 @@ function NavBar() {
         const element = document.querySelector(item.href);
         if (element) {
             element.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
+                behavior: 'smooth'
             })
         }
     }
+
 
     const handleResumeDownload = () => {
         fetch('/Chris_Schultz_Resume_2025.pdf')
